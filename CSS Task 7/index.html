@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Task-7</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <form action="/register" method="post">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Your email address">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Your password">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" class="form-control" id="phone" name="phone" placeholder="Your phone number">
+      </div>
+      <div class="form-group">
+        <label>Gender</label>
+        <div>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+        </div>
+        <div>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="language">Language</label>
+        <select class="form-control" id="language" name="language">
+          <option value="english">English</option>
+          <option value="hindi">Hindi</option>
+          <option value="Bhojpuri">Bhojpuri</option>
+          <option value="german">German</option>
+          <option value="chinese">Chinese</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="about">About</label>
+        <textarea class="form-control" id="about" name="about" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn">Register</button>
+    </form>
+  </div>
+</body>
+</html>
